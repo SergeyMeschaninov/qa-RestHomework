@@ -5,8 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
-class MobileBankApiTestV3 {
+class mobileBankApiTestV3 {
     @Test
     void shouldReturnDemoAccounts() {
         // Given - When - Then
