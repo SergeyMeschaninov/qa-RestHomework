@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
-class mobileBankApiTestV3 {
+class MobileBankApiTestV3 {
     @Test
     void shouldReturnDemoAccounts() {
         // Given - When - Then
